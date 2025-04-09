@@ -404,6 +404,8 @@ button p {
     padding: 14px 16px;
     box-shadow: 0px 12px 32px 0px rgba(63, 128, 240, 0.08);
     display: flex;
+    justify-content: left;
+    align-items: center;
     background: rgba(255, 255, 255, 1);
     top: 2110px;
     margin-left: 295px;
@@ -415,7 +417,7 @@ button p {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 290%;
+    line-height: 0%;
     width: 171px;
     height: 24px;
     letter-spacing: 0%;
@@ -436,7 +438,6 @@ button p {
 .quality p {
     font-weight: 400;
     font-size: 12px;
-    line-height: 0%;
     letter-spacing: 0%;
     vertical-align: middle;
     font-size: 24px;
@@ -948,4 +949,6 @@ footer b {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    justify-content: center;
+    align-items: center;
 }
